@@ -62,10 +62,6 @@ function playGame() {
     let compScore = 0;
 
     playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
 
     if (humanScore > compScore) {
         console.log("Congratulations! You won the whole game!");
